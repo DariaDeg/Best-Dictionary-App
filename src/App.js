@@ -1,4 +1,5 @@
 import React from "react";
+import Dictionary from "./Dictionary";
 import logo from "./logo.jpg";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -6,13 +7,21 @@ import "bootstrap/dist/css/bootstrap.min.css";
 export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App- img-fluid" alt="logo" />
+      <div className="container">
+        <header className="App-header">
+          <img src={logo} className="App- img-fluid" alt="logo" />
 
-        <a href="#" className="btn btn-primary">
-          Hello
-        </a>
-      </header>
+          <a href="www.exactpro.com" className="btn btn-primary">
+            Hello
+          </a>
+        </header>
+        <main>
+          <Dictionary />
+        </main>
+        <footer className="App-footer">
+          <small>Coded by DariaDeg</small>
+        </footer>
+      </div>
     </div>
   );
 }
