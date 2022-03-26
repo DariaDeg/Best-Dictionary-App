@@ -10,10 +10,6 @@ export default function App() {
       <div className="container">
         <header className="App-header">
           <img src={logo} className="App- img-fluid" alt="logo" />
-
-          <a href="www.exactpro.com" className="btn btn-primary">
-            Hello
-          </a>
         </header>
         <main>
           <Dictionary />
