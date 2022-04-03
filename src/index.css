@@ -1,1 +1,5 @@
-
+body {
+  background: url("./image/IMG_3537.jpg") no-repeat center center fixed;
+  background-size: cover;
+  background-blend-mode: lighten;
+}
