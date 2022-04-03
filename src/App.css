@@ -1,4 +1,4 @@
-body {
+.App body {
   background: #6f65a9;
 }
 
@@ -19,4 +19,9 @@ a {
 .App-footer {
   text-align: center;
   margin: 20px 0;
+}
+
+.App {
+  max-width: 560px;
+  margin: 0 auto;
 }
