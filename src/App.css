@@ -5,9 +5,18 @@
 .App-footer {
   text-align: center;
   margin: 20px 0;
+  color: white;
 }
 
 .App {
   max-width: 800px;
   margin: 0 auto;
+}
+
+.App a {
+  color: white;
+}
+
+.App a:hover {
+  color: rgb(255, 173, 159);
 }

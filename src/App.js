@@ -12,7 +12,10 @@ export default function App() {
           <Dictionary defaultKeyword="word" />
         </main>
         <footer className="App-footer">
-          <small>Coded by DariaDeg</small>
+          <small>
+            Coded by DariaDeg and hosted on{" "}
+            <a href="https://github.com/DariaDeg/Best-Dictionary-App">GitHub</a>
+          </small>
         </footer>
       </div>
     </div>
